@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="main.css">
+            <script type="text/javascript" src="jquery.js"></script>
+            <script type="text/javascript">
+                function scrolltogo(div) {
+                $('html,body').animate({
+                scrollTop: $("#"+div).offset().top
+                },'slow');
+                }
+            </script>
+        </head>
+    <body>
+    
+        <div id="header">
+            <li id="site_name">Beyt Clothes</li>
+            <li onclick="scrolltogo('home');">HOME</li>
+            <li onclick="scrolltogo('about');">ABOUT</li>
+            <li onclick="scrolltogo('products');">PRODUCTS</li>
+            <li onclick="scrolltogo('contact');">CONTACT</li>
+        </div>
+        
+        <div id="home">
+            <h1>Work in progress!</p></h1>
+            <p> Just testing </p>
+        </div>
+        
+        <div id="about">
+            <p>About Us</p>
+        </div>
+
+        <div id="products"></div>
+        
+        <div id="contact">
+            <h1>You can contact us here!</h1>
+            <input type="text" placeholder="Name">
+            <textarea placeholder="Message"></textarea>
+            <input type="email" placeholder="Email">
+            <input type="submit" value="SEND">
+        </div>
+        
+        </body>
+    </html>
