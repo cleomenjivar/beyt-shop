@@ -4,7 +4,7 @@ body {
  text-align:center;
  width:100%;
  font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
- background-color:#A9D0F5;
+ background-color:#ffffff;
 }
 
 #header {
@@ -20,7 +20,7 @@ body {
  display:inline-block;
  margin-right:25px;
  font-size:17px;
- color:#084B8A;
+ color:#16575a;
  font-weight:bold;
  cursor:pointer;
 }
